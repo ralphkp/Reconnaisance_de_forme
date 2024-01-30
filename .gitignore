@@ -1,0 +1,38 @@
+# Fichiers et répertoires générés par l'environnement virtuel
+venv/
+
+# Fichiers de cache et fichiers pyc
+*.pyc
+__pycache__/
+
+# Fichiers de configuration pour différents éditeurs
+.vscode/
+.idea/
+
+# Fichiers de configuration pour environnements spécifiques
+.env
+
+# Les fichiers de logs
+logs/
+*.log
+
+# Fichiers de base de données
+*.db
+
+# Fichiers de configuration pour Flask
+instance/
+
+# Fichiers générés par des outils tels que coverage
+htmlcov/
+.coverage
+.coverage.*
+.cache/
+nosetests.xml
+coverage.xml
+
+# Dossiers spécifiques à PyInstaller
+dist/
+build/
+
+# Dépendances de développement
+dev_requirements.txt
